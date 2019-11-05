@@ -8,5 +8,9 @@ import com.candidjava.spring.bean.User;
 public interface UserRepository extends CrudRepository<User, Long>{
 	
 	List<User> findByName(String name);
+	
+	List<User> findByCountry(String country);
+
+	
 
 }

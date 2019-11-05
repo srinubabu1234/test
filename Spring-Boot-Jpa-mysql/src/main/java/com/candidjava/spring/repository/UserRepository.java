@@ -9,7 +9,6 @@ public interface UserRepository extends CrudRepository<User, Long>{
 	
 	List<User> findByName(String name);
 	
-	List<User> findByCountry(String country);
 
 	List<User> findById(long id);
 
